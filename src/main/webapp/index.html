@@ -4,16 +4,174 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="test">
-    <meta name="author" content="lee">
+    <link rel="shortcut icon" type="image/ico" href="./images/favicon.ico">
+    <meta name="description" content="商丘市晨迪电子商务有限公司首页">
+    <meta name="author" content="tuoyu">
+
     <title>商丘市晨迪电子商务有限公司</title>
+
     <link rel="stylesheet" href="./bootstrap/3.3.0/css/bootstrap.min.css">
-    <script src="./jquery/2.1.1/jquery.min.js"></script>
-    <script src="./bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/3.3.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="./bootstrap/3.3.0/css/skins/all.css">-->
+    <link rel="stylesheet" type="text/css" href="./bootstrap/3.3.0/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/3.3.0/css/bootstrap-switch.css">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="./bootstrap/3.3.0/css/bootstrap-datetimepicker.min.css">-->
+    <link rel="stylesheet" type="text/css" href="./bootstrap/3.3.0/css/bootstrap-tabContainer.css" />
+    <link rel="stylesheet" type="text/css" href="./bootstrap/3.3.0/css/bootstrap-public.css" />
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+
+    <script language="javascript" type="text/javascript" src="./jquery/2.1.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./bootstrap/3.3.0/js/bootstrap-switch.js"></script>
+    <!--<script language="javascript" type="text/javascript" src="./bootstrap/3.3.0/js/bootstrap-datetimepicker.js"></script>-->
+    <!--<script language="javascript" type="text/javascript" src="./bootstrap/3.3.0/js/bootstrap-datetimepicker.zh-CN.js"></script>-->
+    <script language="javascript" type="text/javascript" src="./bootstrap/3.3.0/js/bootstrap-select.min.js"></script>
+    <!--<script language="javascript" type="text/javascript" src="./bootstrap/3.3.0/js/bootstrap-paginator.min.js"></script>-->
+
+    <script type="text/javascript">
+        function startup(){
+            var firstPageDom = document.getElementById("firstPage");
+            firstPageDom.className  = "selectedMenu";
+        }
+        window.onload = startup;
+    </script>
 </head>
 <body>
-    <div class="container">
-        <img class="container" src="images/test.png" />
+    <div class="container-fluid" style="padding: 0px; background-color: #B5FFE9">
+        <div class="title">
+            <img src="./images/logo1.png" style="position: relative;left: 100px;top:5px"/>
+            <!--<img src="./images/tel.png" style="position: relative;left: 700px;top:5px"/>-->
+        </div>
+
+        <ul class="list-inline gradient">
+            <li id="firstPage">首页</li>
+            <li>产品介绍</li>
+            <li>留言板</li>
+            <li>关于我们</li>
+            <li>联系我们</li>
+        </ul>
+
+        <div class="row" style="padding: 0px;margin: 0px;">
+            <div class="col-lg-2" style="height: 515px;">
+                <div>
+                    <div class="menuTitle">产品搜索</div>
+                    <!--<div>
+                        <input class="input-medium search-query"style="border-radius: 10px;outline: 0px;" type="text">
+                        <span>搜索</span>
+                    </div>-->
+                    <div class="input-group">
+                        <input type="text" class="form-control"
+                               style="border-radius: 10px;height: 25px;">
+                        <span class="input-group-addon"
+                              style="border-radius: 10px;">搜索</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="menuTitle">产品分类</div>
+                    <div style="margin-left: 10px;">
+                        <div>- 搭扣型</div>
+                        <div>- 内裤型</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="menuTitle">在线客服</div>
+                    <div style="margin-left: 10px;">
+                        <div>
+                            <img src="./images/qq.png"/>
+                            <span style="margin-left: 5px;">华南客服</span>
+                        </div>
+                        <div style="margin-top: 5px;">
+                            <img src="./images/qq.png"/>
+                            <span style="margin-left: 5px;">华北客服</span>
+                        </div>
+                        <div style="margin-top: 5px;">
+                            <img src="./images/time.png" />
+                            <span style="margin-left: 5px;font-weight: 600;">工作时间</span>
+                        </div>
+                        <div style="margin-top: 5px;">
+                            周一至周五
+                            <span style="margin-left: 5px;">8:30-17:30</span>
+                        </div>
+                        <div style="margin-top: 5px;">
+                            周六至周日
+                            <span style="margin-left: 5px;">9:00-17:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="menuTitle">联系方式</div>
+                    <div style="margin-left: 10px;">
+                        <div>
+                            联系人
+                            <span style="margin-left: 5px;">李冰</span>
+                        </div>
+                        <div>
+                            电话
+                            <span style="margin-left: 5px;">15620230370</span>
+                        </div>
+                        <div>
+                            邮箱
+                            <span style="margin-left: 5px;">123456@163.com</span>
+                        </div>
+                        <div>
+                            地址
+                            <span style="margin-left: 5px;">天津</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-10" style="height: 515px;">
+                <div>
+                    <div class="ContentMenu">公司简介</div>
+                    <div style="margin-top: 15px;">
+                        <div class="CompanyImg"></div>
+                        <div class="CompanyIntroduce">
+                            <p>
+                                商丘市晨迪电子商务有限公司是0-6岁中高端婴幼儿服饰及家纺品牌，隶属于广州乐欣母婴用品有限公司。公司集自主研发、设计、生产及销售为一体，始终坚持健康、舒适的设计理念。
+                                公司回归产品的本质，悉心倾听孩子的心声，重视选材的健康和穿着的舒适感。风格中汲取北欧文化精髓，并且融合自然的色彩，兼具完善的款式和功能性。
+                            </p>
+                            <p>
+                                商丘市晨迪电子商务有限公司倾注所爱，用优质的产品和极致的服务，致力于成为宝宝健康服饰和搭配风格灵感的发源地。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="ContentMenu">热销产品</div>
+                    <div id="myCarousel" class="carousel slide pad_010 b_k" data-ride="carousel" style="margin-top: 10px;">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner bor_btm" style="text-align: center;">
+                            <div class="active item">
+                                <div class="pic">
+                                    <img class="displayImg"
+                                         src="./images/q.jpg" />
+                                    <img class="displayImg"
+                                         src="./images/w.png" />
+                                    <img class="displayImg"
+                                         src="./images/e.png" />
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pic">
+                                    <img class="displayImg"
+                                         src="./images/r.png" />
+                                    <img class="displayImg"
+                                         src="./images/t.png" />
+                                    <img class="displayImg"
+                                         src="./images/productExample_1.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

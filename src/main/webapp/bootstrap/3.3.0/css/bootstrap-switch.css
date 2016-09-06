@@ -1,0 +1,285 @@
+.has-switch {
+	border-width: 1px; border-style: solid; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border-radius: 5px; text-align: left; line-height: 8px; overflow: hidden; display: inline-block; position: relative; cursor: pointer; min-width: 100px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;
+}
+.switch-mini.has-switch {
+	min-width: 72px;
+}
+.switch-small.has-switch {
+	min-width: 80px;
+}
+.switch-large.has-switch {
+	min-width: 120px;
+}
+.deactivate.has-switch {
+	filter: alpha(opacity=50); cursor: default !important; opacity: 0.5;
+}
+.deactivate.has-switch label {
+	cursor: default !important;
+}
+.deactivate.has-switch span {
+	cursor: default !important;
+}
+.has-switch > div {
+	top: 0px; width: 150%; display: inline-block; position: relative;
+}
+.has-switch > div.switch-animate {
+	-webkit-transition: left 0.5s; -moz-transition: left 0.5s; -o-transition: left 0.5s; transition: left 0.5s;
+}
+.has-switch > div.switch-off {
+	left: -50%;
+}
+.has-switch > div.switch-on {
+	left: 0%;
+}
+.has-switch input[type=checkbox] {
+	display: none;
+}
+.has-switch span {
+	height: 100%; line-height: 20px; padding-top: 4px; padding-bottom: 4px; font-size: 14px; display: inline-block; position: relative; cursor: pointer; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.has-switch label {
+	height: 100%; line-height: 20px; padding-top: 4px; padding-bottom: 4px; font-size: 14px; display: inline-block; position: relative; cursor: pointer; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.has-switch span.switch-mini {
+	line-height: 9px; padding-top: 4px; padding-bottom: 4px; font-size: 10px;
+}
+.has-switch label.switch-mini {
+	line-height: 9px; padding-top: 4px; padding-bottom: 4px; font-size: 10px;
+}
+.has-switch span.switch-small {
+	line-height: 18px; padding-top: 3px; padding-bottom: 3px; font-size: 12px;
+}
+.has-switch label.switch-small {
+	line-height: 18px; padding-top: 3px; padding-bottom: 3px; font-size: 12px;
+}
+.has-switch span.switch-large {
+	line-height: normal; padding-top: 9px; padding-bottom: 9px; font-size: 16px;
+}
+.has-switch label.switch-large {
+	line-height: normal; padding-top: 9px; padding-bottom: 9px; font-size: 16px;
+}
+.has-switch label {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); width: 34%; text-align: center; color: rgb(255, 255, 255); margin-top: -1px; margin-bottom: -1px; border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); z-index: 100; background-repeat: repeat-x; background-color: rgb(245, 245, 245); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.has-switch label:hover {
+	color: rgb(255, 255, 255); background-color: rgb(230, 230, 230);
+}
+.has-switch label:focus {
+	color: rgb(255, 255, 255); background-color: rgb(230, 230, 230);
+}
+.has-switch label:active {
+	color: rgb(255, 255, 255); background-color: rgb(230, 230, 230);
+}
+.has-switch label.active {
+	color: rgb(255, 255, 255); background-color: rgb(230, 230, 230);
+}
+.has-switch label.disabled {
+	color: rgb(255, 255, 255); background-color: rgb(230, 230, 230);
+}
+.has-switch label[disabled] {
+	color: rgb(255, 255, 255); background-color: rgb(230, 230, 230);
+}
+.has-switch label:active {
+	
+}
+.has-switch label.active {
+	
+}
+.has-switch label i {
+	color: rgb(0, 0, 0); line-height: 18px; pointer-events: none; text-shadow: 0 1px 0 #fff;
+}
+.has-switch span {
+	width: 33%; text-align: center; z-index: 1;
+}
+.has-switch span.switch-left {
+	border-top-left-radius: 4px; border-bottom-left-radius: 4px; -webkit-border-top-left-radius: 4px; -moz-border-radius-topleft: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px;
+}
+.has-switch span.switch-right {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: rgb(51, 51, 51); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); background-repeat: repeat-x; background-color: rgb(240, 240, 240); text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+.has-switch span.switch-right:hover {
+	color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.has-switch span.switch-right:focus {
+	color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.has-switch span.switch-right:active {
+	color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.has-switch span.active.switch-right {
+	color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.has-switch span.disabled.switch-right {
+	color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.has-switch span[disabled].switch-right {
+	color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.has-switch span.switch-right:active {
+	
+}
+.has-switch span.active.switch-right {
+	
+}
+.has-switch span.switch-primary {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); background-repeat: repeat-x; background-color: rgb(0, 95, 204); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.has-switch span.switch-left {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); background-repeat: repeat-x; background-color: rgb(0, 95, 204); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.has-switch span.switch-primary:hover {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.switch-left:hover {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.switch-primary:focus {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.switch-left:focus {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.switch-primary:active {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.switch-left:active {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.active.switch-primary {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.active.switch-left {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.disabled.switch-primary {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.disabled.switch-left {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span[disabled].switch-primary {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span[disabled].switch-left {
+	color: rgb(255, 255, 255); background-color: rgb(0, 136, 204);
+}
+.has-switch span.switch-primary:active {
+	
+}
+.has-switch span.switch-left:active {
+	
+}
+.has-switch span.active.switch-primary {
+	
+}
+.has-switch span.active.switch-left {
+	
+}
+.has-switch span.switch-info {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); background-repeat: repeat-x; background-color: rgb(65, 167, 197); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.has-switch span.switch-info:hover {
+	color: rgb(255, 255, 255); background-color: rgb(91, 192, 222);
+}
+.has-switch span.switch-info:focus {
+	color: rgb(255, 255, 255); background-color: rgb(91, 192, 222);
+}
+.has-switch span.switch-info:active {
+	color: rgb(255, 255, 255); background-color: rgb(91, 192, 222);
+}
+.has-switch span.active.switch-info {
+	color: rgb(255, 255, 255); background-color: rgb(91, 192, 222);
+}
+.has-switch span.disabled.switch-info {
+	color: rgb(255, 255, 255); background-color: rgb(91, 192, 222);
+}
+.has-switch span[disabled].switch-info {
+	color: rgb(255, 255, 255); background-color: rgb(91, 192, 222);
+}
+.has-switch span.switch-info:active {
+	
+}
+.has-switch span.active.switch-info {
+	
+}
+.has-switch span.switch-success {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); background-repeat: repeat-x; background-color: rgb(88, 176, 88); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.has-switch span.switch-success:hover {
+	color: rgb(255, 255, 255); background-color: rgb(98, 196, 98);
+}
+.has-switch span.switch-success:focus {
+	color: rgb(255, 255, 255); background-color: rgb(98, 196, 98);
+}
+.has-switch span.switch-success:active {
+	color: rgb(255, 255, 255); background-color: rgb(98, 196, 98);
+}
+.has-switch span.active.switch-success {
+	color: rgb(255, 255, 255); background-color: rgb(98, 196, 98);
+}
+.has-switch span.disabled.switch-success {
+	color: rgb(255, 255, 255); background-color: rgb(98, 196, 98);
+}
+.has-switch span[disabled].switch-success {
+	color: rgb(255, 255, 255); background-color: rgb(98, 196, 98);
+}
+.has-switch span.switch-success:active {
+	
+}
+.has-switch span.active.switch-success {
+	
+}
+.has-switch span.switch-warning {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); background-repeat: repeat-x; background-color: rgb(249, 161, 35); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.has-switch span.switch-warning:hover {
+	color: rgb(255, 255, 255); background-color: rgb(251, 180, 80);
+}
+.has-switch span.switch-warning:focus {
+	color: rgb(255, 255, 255); background-color: rgb(251, 180, 80);
+}
+.has-switch span.switch-warning:active {
+	color: rgb(255, 255, 255); background-color: rgb(251, 180, 80);
+}
+.has-switch span.active.switch-warning {
+	color: rgb(255, 255, 255); background-color: rgb(251, 180, 80);
+}
+.has-switch span.disabled.switch-warning {
+	color: rgb(255, 255, 255); background-color: rgb(251, 180, 80);
+}
+.has-switch span[disabled].switch-warning {
+	color: rgb(255, 255, 255); background-color: rgb(251, 180, 80);
+}
+.has-switch span.switch-warning:active {
+	
+}
+.has-switch span.active.switch-warning {
+	
+}
+.has-switch span.switch-danger {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); background-repeat: repeat-x; background-color: rgb(209, 70, 65); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.has-switch span.switch-danger:hover {
+	color: rgb(255, 255, 255); background-color: rgb(238, 95, 91);
+}
+.has-switch span.switch-danger:focus {
+	color: rgb(255, 255, 255); background-color: rgb(238, 95, 91);
+}
+.has-switch span.switch-danger:active {
+	color: rgb(255, 255, 255); background-color: rgb(238, 95, 91);
+}
+.has-switch span.active.switch-danger {
+	color: rgb(255, 255, 255); background-color: rgb(238, 95, 91);
+}
+.has-switch span.disabled.switch-danger {
+	color: rgb(255, 255, 255); background-color: rgb(238, 95, 91);
+}
+.has-switch span[disabled].switch-danger {
+	color: rgb(255, 255, 255); background-color: rgb(238, 95, 91);
+}
+.has-switch span.switch-danger:active {
+	
+}
+.has-switch span.active.switch-danger {
+	
+}
